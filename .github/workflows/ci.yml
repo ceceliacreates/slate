@@ -46,12 +46,12 @@ jobs:
           key: node16
 
       - name: Run
-        run: yarn && yarn build && yarn serve
+        run: yarn && yarn build
 
       - name: Cypress tests
         uses: replayio/action-cypress@v0.1.4
         with:
-          command: yarn cypress:run
+          command: yarn test:integration --
           browser: "Replay Firefox"
           apiKey: ${{ secrets.CYPRESS_REPLAY_API_KEY }}
           public: true
