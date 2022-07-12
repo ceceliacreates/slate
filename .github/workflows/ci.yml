@@ -49,7 +49,7 @@ jobs:
         run: yarn && yarn build
 
       - name: Cypress tests
-        uses: replayio/action-cypress@ryan/bac-1948-remove-cypress-plugin-install-from
+        uses: replayio/action-cypress@v0.1.4
         with:
           command: yarn test:integration --
           browser: "Replay Firefox"
@@ -57,5 +57,3 @@ jobs:
           public: true
           issue-number: ${{ github.event.pull_request.number }}
           upload-all: true
-        env:
-          CI: true
