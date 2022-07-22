@@ -3353,6 +3353,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@replayio/cypress@npm:^0.2.7":
+  version: 0.2.7
+  resolution: "@replayio/cypress@npm:0.2.7"
+  dependencies:
+    "@replayio/replay": ^0.7.0
+    uuid: ^8.3.2
+  bin:
+    replayio-cypress: bin/replayio-cypress.js
+  checksum: ec4f83bbe6fddf5b73374cc7763cb8a4a9ec4dfce24dc2a88ed445f874241ce7f4b1e09b17c1e98527a75e09779a480decbe4f889c18db6425c435376ef07731
+  languageName: node
+  linkType: hard
+
+"@replayio/replay@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@replayio/replay@npm:0.7.0"
+  dependencies:
+    "@replayio/sourcemap-upload": ^1.0.2
+    commander: ^7.2.0
+    is-uuid: ^1.0.2
+    superstruct: ^0.15.4
+    text-table: ^0.2.0
+    ws: ^7.5.0
+  bin:
+    replay: bin/replay.js
+  checksum: ce39118a7b7b98f45c3e062e258f9e70c2dc392ae6a84581ab27a54e149ae83f648738619a27cbbbc805019b15170ea84313b0906d1af9bb392a82c8ccf8bf68
+  languageName: node
+  linkType: hard
+
+"@replayio/sourcemap-upload@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@replayio/sourcemap-upload@npm:1.0.2"
+  dependencies:
+    commander: ^7.2.0
+    debug: ^4.3.1
+    glob: ^7.1.6
+    node-fetch: ^2.6.1
+    string.prototype.matchall: ^4.0.5
+  checksum: b82009a88f34699862ddb5132dfad1a47d24173f4a2431d0edef838281f9a9d36700ffdcaf547f15649d96bdbc61bb2f961b7f667aa90bc3df6203e1e4ccd135
+  languageName: node
+  linkType: hard
+
 "@rollup/pluginutils@npm:^3.1.0":
   version: 3.1.0
   resolution: "@rollup/pluginutils@npm:3.1.0"
@@ -9453,6 +9494,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-uuid@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "is-uuid@npm:1.0.2"
+  checksum: 53eb3544e4416ee2f170e204a319bf686768087d2de1f061f7261decd6b8e2cc16c83687fb081d3aac398c657c8e461ad43e3f664d3155b866db4016697624a3
+  languageName: node
+  linkType: hard
+
 "is-windows@npm:^1.0.0, is-windows@npm:^1.0.2":
   version: 1.0.2
   resolution: "is-windows@npm:1.0.2"
@@ -14564,6 +14612,7 @@ resolve@^2.0.0-next.3:
     "@changesets/changelog-github": ^0.3.0
     "@changesets/cli": ^2.14.1
     "@emotion/css": ^11.7.1
+    "@replayio/cypress": ^0.2.7
     "@testing-library/cypress": ^8.0.0
     "@types/jest": 27.0.1
     "@types/lodash": ^4.14.149
@@ -15471,6 +15520,13 @@ resolve@^2.0.0-next.3:
   version: 4.0.13
   resolution: "stylis@npm:4.0.13"
   checksum: 8ea7a87028b6383c6a982231c4b5b6150031ce028e0fdaf7b2ace82253d28a8af50cc5a9da8a421d3c7c4441592f393086e332795add672aa4a825f0fe3713a3
+  languageName: node
+  linkType: hard
+
+"superstruct@npm:^0.15.4":
+  version: 0.15.5
+  resolution: "superstruct@npm:0.15.5"
+  checksum: 6d1f5249fee789424b7178fa0a1ffb2ace629c5480c39505885bd8c0046a4ff8b267569a3442fa53b8c560a7ba6599cf3f8af94225aebeb2cf6023f7dd911050
   languageName: node
   linkType: hard
 
@@ -16409,6 +16465,15 @@ typescript@3.9.7:
   languageName: node
   linkType: hard
 
+"uuid@npm:^8.3.2":
+  version: 8.3.2
+  resolution: "uuid@npm:8.3.2"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
+  languageName: node
+  linkType: hard
+
 "v8-compile-cache@npm:^2.0.3":
   version: 2.3.0
   resolution: "v8-compile-cache@npm:2.3.0"
@@ -16812,6 +16877,21 @@ typescript@3.9.7:
     utf-8-validate:
       optional: true
   checksum: 423dc0d859fa74020f5555140905b862470a60ea1567bb9ad55a087263d7718b9c94f69678be1cee9868925c570f1e6fc79d09f90c39057bc63fa2edbb2c547b
+  languageName: node
+  linkType: hard
+
+"ws@npm:^7.5.0":
+  version: 7.5.8
+  resolution: "ws@npm:7.5.8"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 49479ccf3ddab6500c5906fbcc316e9c8cd44b0ffb3903a6c1caf9b38cb9e06691685722a4c642cfa7d4c6eb390424fc3142cd4f8b940cfc7a9ce9761b1cd65b
   languageName: node
   linkType: hard
 
