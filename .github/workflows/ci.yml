@@ -49,7 +49,7 @@ jobs:
         run: yarn && yarn build
 
       - name: Cypress tests
-        uses: replayio/action-cypress@v0.1.6
+        uses: replayio/action-cypress@ryan/bac-1985-update-gh-actions-to-include
         with:
           command: yarn test:integration --
           browser: "Replay Firefox"
